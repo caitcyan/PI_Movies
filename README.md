@@ -5,6 +5,9 @@ Autora: <span style="color: violet;"> Na</span><span style="color: green;">ta</s
 
 Video explicativo: [Video] https://drive.google.com/drive/u/2/folders/11aZIv_wl6Z9jhXrXGiamTD5zXxDBgfaR
 
+[![IMAGE ALT TEXT]([http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE](https://drive.google.com/drive/u/2/folders/11aZIv_wl6Z9jhXrXGiamTD5zXxDBgfaR)/0.jpg) "Video Title"])
+
+
 
 Este proyecto consistió en limpiar, analizar brevemente y realizar un modelo de recomendación con un dataset de películas y series. 
 
