@@ -25,7 +25,6 @@ La carpeta del proyecto está estructurada de la siguiente manera:
  - ProjectML_OPS_API
  - ETL.ipynb
  - EDA.ipynb
- - drive.py #Extra, para subir archivos al Drive
 
 Dentro de ProjectML_OPS_ML tenemos la carpeta Streamlit, donde se encuentra la interfaz gráfica del sistema.
 
