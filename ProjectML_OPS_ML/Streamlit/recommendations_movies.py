@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import base64
+#import base64
 from deta import Deta
 from deta import Drive
 
@@ -174,15 +174,11 @@ if (large_file2.closed == True) and (large_file3.closed == True):
         st.write('')
 
 
-
-with open('background.gif', "rb") as image_file:
-        encoded_string = base64.b64encode(image_file.read())
-
 st.markdown(
             f"""
             <style>
             .stApp {{
-                background-image: url(data:image/{"gif"};base64,{encoded_string.decode()});
+                background-image: url(https://github.com/caitcyan/ProjectML_OPS/blob/main/ProjectML_OPS_ML/Streamlit/background.gif);
                 background-attachment: fixed;
                 background-size: cover
             }}
