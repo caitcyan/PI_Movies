@@ -48,7 +48,7 @@ Dentro de Streamlit
 - Ejecutar el notebook EDA.ipynb de la carpeta principal.
 - Deployar la API mediante Space, empleando la carpeta ProjectML_OPS_API.
 - Ejecutar el notebook EDA_ML.ipynb, de la carpeta ProjectML_OPS_ML.
-- Deployar la streamlitapp desde la carpeta Streamlit, con todo lo necesario para deployar. 
+- Ejecutar la streamlitapp desde la carpeta Streamlit, preferemente en el archivo recommendations_movie.py. Usa el comando streamlit. 
 - Eso es todo!
 
 ✨IMPORTANTE✨: el archivo upload_to_drive.py es para subir mis datasets a Deta Drive.
@@ -57,7 +57,7 @@ Dentro de Streamlit
 ```fix
 Overview de la API
 ```
-- Para saber cómo funciona la API dirigirse al readme.md ubicado en esa carpeta.
+- Para saber cómo funciona la API dirigirse al readme.md ubicado en la carpeta ProjectML_OPS_API.
 - https://deta.space/discovery/@caitcyan/my_api/exp-AYCh
 ```fix
 Overview de StreamlitApp
