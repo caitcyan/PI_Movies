@@ -52,7 +52,7 @@ Dentro de Streamlit
 - Deployar la streamlitapp desde la carpeta Streamlit, con todo lo necesario para deployar. 
 - Eso es todo!
 
-✨✨✨ Extra: el archivo upload_to_drive.py es para subir mis datasets a Deta Drive.
+✨IMPORTANTE✨: el archivo upload_to_drive.py es para subir mis datasets a Deta Drive.
 
 
 ```fix
