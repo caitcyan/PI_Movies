@@ -3,7 +3,7 @@
 ```
 Autora: <span style="color: violet;"> Na</span><span style="color: green;">ta</span><span style="color: cyan;">lia</span> Gomez
 
-Video explicativo: [Video]([[http://example.com](https://drive.google.com/drive/u/2/folders/11aZIv_wl6Z9jhXrXGiamTD5zXxDBgfaR)](https://drive.google.com/drive/u/2/folders/11aZIv_wl6Z9jhXrXGiamTD5zXxDBgfaR)/ "Video")
+Video explicativo: [Video] https://drive.google.com/drive/u/2/folders/11aZIv_wl6Z9jhXrXGiamTD5zXxDBgfaR
 
 
 Este proyecto consistió en limpiar, analizar brevemente y realizar un modelo de recomendación con un dataset de películas y series. 
