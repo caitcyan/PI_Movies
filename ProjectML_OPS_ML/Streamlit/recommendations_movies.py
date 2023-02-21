@@ -52,7 +52,7 @@ def get_users():
     listado_users = pd.read_csv('new_data.csv',compression = 'gzip')
     return listado_users['userId']
 
-if (large_file2.close == True) and (large_file3.close == True):
+if (large_file2.closed == True) and (large_file3.closed == True):
     dataset = load_data()
     st.title('Movie Recommendations System')
     st.write('')
