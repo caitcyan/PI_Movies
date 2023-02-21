@@ -53,6 +53,9 @@ Dentro de Streamlit
 
 ✨IMPORTANTE✨: el archivo upload_to_drive.py es para subir mis datasets a Deta Drive.
 
+- Sobre el modelo de ML:
+
+Usé un filtro colaborativo, con el que se comparan los valores de ratings de distintos usuarios.Usé el Singular Value Decomposition para realizar las operaciones matemáticas.
 
 ```fix
 Overview de la API
