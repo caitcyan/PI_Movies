@@ -175,10 +175,10 @@ if (large_file2.closed == True) and (large_file3.closed == True):
 
 
 
-    with open('background.gif', "rb") as image_file:
+with open('background.gif', "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
 
-    st.markdown(
+st.markdown(
             f"""
             <style>
             .stApp {{
@@ -193,12 +193,12 @@ if (large_file2.closed == True) and (large_file3.closed == True):
 
 
 
-    css = '''
+css = '''
     <style>
     section.main > div:has(~ footer ) {
         padding-bottom: 5px;
     }
     </style>
     '''
-    st.markdown(css, unsafe_allow_html=True)
+st.markdown(css, unsafe_allow_html=True)
 
