@@ -9,22 +9,19 @@ st.set_page_config(layout="wide") #para ocupar toda la pantalla
 
 deta = Deta("e0t3zaGELWHa_JjY9Bw5uJusD698dB1Qxqujkpo3h3SQy")
 drive = deta.Drive("data")
+
 large_file1 = drive.get('data_aux.csv')
 with open("data_aux.csv", "wb+") as f:
   for chunk in large_file1.iter_chunks(4096):
       f.write(chunk)
   large_file1.close()
-
-deta = Deta("e0t3zaGELWHa_JjY9Bw5uJusD698dB1Qxqujkpo3h3SQy")
-drive = deta.Drive("data")
+  
 large_file2 = drive.get('new_data.csv')
 with open("new_data.csv", "wb+") as f:
   for chunk in large_file2.iter_chunks(4096):
       f.write(chunk)
   large_file2.close()
 
-deta = Deta("e0t3zaGELWHa_JjY9Bw5uJusD698dB1Qxqujkpo3h3SQy")
-drive = deta.Drive("data")
 large_file3 = drive.get('data.csv')
 with open("data.csv", "wb+") as f:
   for chunk in large_file3.iter_chunks(4096):
@@ -52,7 +49,7 @@ def get_users():
     listado_users = pd.read_csv('new_data.csv',compression = 'gzip')
     return listado_users['userId']
 
-if (large_file2.closed == True) and (large_file3.closed == True):
+if (large_file1.closed == True) and (large_file2.closed == True) and (large_file3.closed == True):
     dataset = load_data()
     st.title('Movie Recommendations System')
     st.write('')
