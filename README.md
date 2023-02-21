@@ -1,6 +1,6 @@
-
-<span style="color: cyan;"> ⚡⚡ Bienvenidos a mi primer proyecto individual ⚡⚡</span>
-
+```fix
+ ⚡⚡ Bienvenidos a mi primer proyecto individual ⚡⚡
+```
 Autora: <span style="color: violet;"> Na</span><span style="color: green;">ta</span><span style="color: cyan;">lia</span> Gomez
 
 Video explicativo: [an example](http://example.com/ "Title")
