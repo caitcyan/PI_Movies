@@ -57,6 +57,8 @@ Dentro de Streamlit
 
 Usé un filtro colaborativo, con el que se comparan los valores de ratings de distintos usuarios.Usé el Singular Value Decomposition para realizar las operaciones matemáticas.
 
+![alt text](https://www.statdeveloper.com/wp-content/uploads/2020/03/colaborativo-1.png)
+
 ```fix
 Overview de la API
 ```
